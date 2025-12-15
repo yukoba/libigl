@@ -12,8 +12,8 @@ include(FetchContent)
 # Define the Boost library to fetch
 FetchContent_Declare(
     Boost
-    URL https://archives.boost.io/release/1.86.0/source/boost_1_86_0.tar.gz
-    URL_HASH MD5=ac857d73bb754b718a039830b07b9624
+    URL https://archives.boost.io/release/1.86.0/source/boost_1_86_0.zip
+    URL_HASH MD5=ccde22b88fcb0c218eae8c0dd2039160
 )
 # Fetch Boost
 FetchContent_MakeAvailable(Boost)
